@@ -1,38 +1,290 @@
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
 .App {
-  text-align: center;
+  height: 100%;
+  width: 800px;
+  background-image: linear-gradient(
+    to right,
+    rgb(104, 104, 234),
+    rgb(224, 224, 188),
+    rgb(189, 78, 189)
+  );
+  display: block;
+  margin-left: 300px;
+  position: fixed;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.App2 {
+  margin-left: 200px;
+  background-color: whitesmoke;
+  display: block;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+  margin-right: 200px;
+  height: auto;
+  margin-top: 100px;
+  border-radius: 6px;
+}
+
+p {
+  color: red;
+}
+.input1 {
+  border: 0px;
+  border-bottom: 2px solid green;
+  height: 20px;
+  width: 300px;
+}
+.input2 {
+  border: 0px;
+  border-bottom: 2px solid green;
+  height: 20px;
+  width: 300px;
+}
+.input3 {
+  border: 0px;
+  border-bottom: 2px solid green;
+  height: 20px;
+  width: 300px;
+}
+.input4 {
+  border: 0px;
+  border-bottom: 2px solid green;
+  height: 20px;
+  width: 300px;
+}
+.start {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.tryagain1 {
+  margin-top: 20px;
+}
+h3 {
   color: white;
+  font-size: 15px;
+}
+.register {
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  .box {
+    height: 200px;
+    width: 90%;
+    border: 2px solid black;
+    margin-left: 14px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .App {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    display: block;
+    margin-left: 0px;
+    position: fixed;
+  }
+  .App2 {
+    margin-left: 30px;
+    background-color: whitesmoke;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0px;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    margin-right: 30px;
+  }
+
+  p {
+    color: red;
+  }
+  .input1 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input2 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input3 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input4 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .start {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .tryagain1 {
+    margin-top: 20px;
+  }
+  h3 {
+    color: white;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 768px) {
+  .box {
+    height: 200px;
+    width: 90%;
+    border: 2px solid black;
+    margin-left: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .App {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    display: block;
+    margin-left: 0px;
+    position: fixed;
+  }
+  .App2 {
+    margin-left: 30px;
+    background-color: whitesmoke;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0px;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    margin-right: 30px;
+  }
+
+  p {
+    color: red;
+  }
+  .input1 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input2 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input3 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input4 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .start {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .tryagain1 {
+    margin-top: 20px;
+  }
+  h3 {
+    color: white;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .box {
+    height: 200px;
+    width: 90%;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .App {
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    display: block;
+    margin-left: 0px;
+    position: fixed;
+  }
+  .App2 {
+    margin-left: 30px;
+    background-color: whitesmoke;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0px;
+    height: auto;
+    margin-top: 100px;
+    border-radius: 6px;
+    margin-right: 30px;
+  }
+
+  p {
+    color: red;
+  }
+  .input1 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input2 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input3 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .input4 {
+    border: 0px;
+    border-bottom: 2px solid green;
+    height: 20px;
+    width: 80%;
+  }
+  .start {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .tryagain1 {
+    margin-top: 20px;
+  }
+  h3 {
+    color: white;
+    font-size: 15px;
   }
 }
